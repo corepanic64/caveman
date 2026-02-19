@@ -1,14 +1,8 @@
 import "./App.css";
-import { SelectComponent } from "./components/shared/select";
-import { Button } from "./components/ui/button";
+import Routes from "./provider/router";
 
 function App() {
-  return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>start</Button>
-      <SelectComponent />
-    </div>
-  );
+  return <Routes />;
 }
 
 export default App;
